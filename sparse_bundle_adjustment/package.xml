@@ -1,0 +1,20 @@
+<package>
+  <name>sparse_bundle_adjustment</name>
+  <description>ROS wrapper for the sparse bundle adjustment (sba) library (needed for slam_karto)</description>
+  <version>0.3.2</version>
+  <license>BSD</license>
+  <maintainer email="fergs@unboundedrobotics.com">Michael Ferguson</maintainer>
+  <maintainer email="lbettaieb@fetchrobotics.com">Luc Bettaieb</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>liblapack-dev</build_depend>
+  <build_depend>libblas-dev</build_depend>
+  <build_depend>suitesparse</build_depend>
+
+  <run_depend>liblapack-dev</run_depend>
+  <run_depend>libblas-dev</run_depend>
+  <run_depend>suitesparse</run_depend>
+</package>

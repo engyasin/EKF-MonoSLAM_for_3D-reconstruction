@@ -1,0 +1,6 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d monoslam.rviz" />
+  <node name="monoslam" pkg="mono-slam" type="mono-slam" args="/home/yasin/catkin_ws/conf(copy).cfg" respawn="false">
+     <remap from="/camera/image_raw" to="/camera/rgb/image_raw" />
+  </node>
+</launch>

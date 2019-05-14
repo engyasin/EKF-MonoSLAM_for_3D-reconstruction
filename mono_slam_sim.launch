@@ -1,0 +1,13 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d monoslam.rviz" />
+  <param name="use_sim_time" type="bool" value="true" />
+  <node name="monoslam" pkg="mono-slam" type="mono-slam" args="/home/yasin/catkin_ws/conf_sim.cfg" >
+     <remap from="/camera/image_raw" to="/camera/rgb/image_raw" />
+     <remap from="/pose" to="/odom" />
+  </node>
+  <node pkg="tf" type="tf_remap" name="tf_remapper" output="screen">
+    <rosparam param="mappings">
+        [{old: "/world",new: "/odom"}]
+    </rosparam>
+  </node>
+</launch>
