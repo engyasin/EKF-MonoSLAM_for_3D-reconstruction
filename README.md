@@ -3,7 +3,7 @@
 EKF stands for Extended Kalman Filter and MonoSLAM stands for Monocular Simultaneous Localization and Mapping.
 This project is the first part for the code of a complete project for 3D reconstuction, the second part source code is [here](https://github.com/engyasin/3D-reconstruction_with_known_poses). the output from this part should be taken as input for 3D reconstruction (second part).
 
-This project is done as part of my Master in Mechatronics thesis. For the MonoSLAM part, the project from [here](https://github.com/rrg-polito/mono-slam) was used as backbone to this work.
+For the MonoSLAM part, the project from [here](https://github.com/rrg-polito/mono-slam) was used as backbone to this work.
 
 *Notes:*
 - for some of the jacobian calculation there's a Jupyter notebook explaining the result with the use of **Sympy** , to confirm the used formula, [here](https://github.com/engyasin/EKF-MonoSLAM_for_3D-reconstruction/blob/master/mono-slam/reference/Sympy_monoslam_jacobians_1.ipynb)
