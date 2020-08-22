@@ -12,16 +12,16 @@ If you use this project in your work, you can cite this reference here [bib]:
 
 ```
 @Inbook{Yousif2021,
-        author="Yousif, Yasin Maan and Hatem, Iyad",
-        editor="Koubaa, Anis",
-        title="Video Frames Selection Method for 3D Reconstruction Depending on ROS-Based Monocular SLAM",
-        bookTitle="Robot Operating System (ROS): The Complete Reference (Volume 5)",
-        year="2021",
-        publisher="Springer International Publishing",
-        address="Cham",
-        pages="351--380",
-        doi="10.1007/978-3-030-45956-7_11",
-        url="https://doi.org/10.1007/978-3-030-45956-7_11"
+      author="Yousif, Yasin Maan and Hatem, Iyad",
+      editor="Koubaa, Anis",
+      title="Video Frames Selection Method for 3D Reconstruction Depending on ROS-Based Monocular SLAM",
+      bookTitle="Robot Operating System (ROS): The Complete Reference (Volume 5)",
+      year="2021",
+      publisher="Springer International Publishing",
+      address="Cham",
+      pages="351--380",
+      doi="10.1007/978-3-030-45956-7_11",
+      url="https://doi.org/10.1007/978-3-030-45956-7_11"
 }
 ```
 
