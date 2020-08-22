@@ -8,6 +8,24 @@ For the MonoSLAM part, the project from [here](https://github.com/rrg-polito/mon
 *Notes:*
 - for some of the jacobian calculation there's a Jupyter notebook explaining the result with the use of **Sympy** , to confirm the used formula, [here](https://github.com/engyasin/EKF-MonoSLAM_for_3D-reconstruction/blob/master/mono-slam/reference/Sympy_monoslam_jacobians_1.ipynb)
 
+If you use this project in your work, you can cite this reference here [bib]:
+
+```
+@Inbook{Yousif2021,
+  author="Yousif, Yasin Maan and Hatem, Iyad",
+  editor="Koubaa, Anis",
+  title="Video Frames Selection Method for 3D Reconstruction Depending on ROS-Based Monocular SLAM",
+  bookTitle="Robot Operating System (ROS): The Complete Reference (Volume 5)",
+  year="2021",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="351--380",
+  doi="10.1007/978-3-030-45956-7_11",
+  url="https://doi.org/10.1007/978-3-030-45956-7_11"
+}
+
+```
+
 ## How to install and make
 This is a ROS project and it can be installed simply by placing the files in the source directory of the workspace. it has the following requirements:
 
